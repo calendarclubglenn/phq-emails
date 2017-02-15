@@ -1,15 +1,15 @@
 // These are the styles to make some of the templates look extra nice.
 // Feel free to remove these styles for production!
 
-// Body Styles 
+// Body Styles
 body,
-html, 
+html,
 .body {
   background: #f3f3f3 !important;
 }
 
 .container.header {
-  background: #f3f3f3;
+  background: #fae819;
 }
 
 .body-drip {
@@ -18,7 +18,8 @@ html,
 
 // Full Width Headers
 .header {
-  background: #8a8a8a;
+  background: #fff;
+
 }
 
 .header .columns {
@@ -26,8 +27,8 @@ html,
 }
 
 .header p {
-  color: #fff;
-  padding-top: 15px;
+  color: #333;
+   font-size: 0.8em;
 }
 
 .header .wrapper-inner {
@@ -57,3 +58,39 @@ table.button.google table td {
 .wrapper.secondary {
   background: #f3f3f3;
 }
+
+.header img {max-width: 220px;}
+
+
+.menu-1, .menu-2, .menu-3, .menu-4, .menu-5 {border-bottom:3px red solid;}
+
+.email-body {background-color: #fae819;
+  button {text-align: center; width:100%;}
+  p {width:100%!important; min-width:100%;
+    a {color:#e42f64; text-align: center; font-weight: bold; padding:10px; text-decoration: none!important;}
+    a:hover, a:focus {color:#fae819; background-color: #e42f64;}
+  }
+}
+
+.intro {background-color:#fae819!important;
+  h1 {color:#e42f64; }
+  p {color:#c52f5b;
+strong {text-decoration: underline;}
+  }
+
+}
+button {background-color: #e42f64;}
+
+.products-body {background-color: #fae819;
+  h5, p {color:#e42f64; font-weight: bold; margin:0;}
+  h5 {font-size: 1.1em;}
+  a img {border:3px #e42f64 solid;}
+  strong {background-color:#e42f64; color:#fae819; padding:5px; }
+}
+.product-place {
+.details-wrap {padding:5px;}
+
+}
+.secondary p {font-size: 0.9em;color:#333; text-align: center;}
+
+.icon-red {color:#e42f64;}
